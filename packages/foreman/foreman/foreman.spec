@@ -139,6 +139,13 @@ Requires: %{?scl_prefix}rubygem(jwt) < 2.3.0
 Requires: %{?scl_prefix}rubygem(graphql) >= 1.8.0
 Requires: %{?scl_prefix}rubygem(graphql) < 1.9.0
 Requires: %{?scl_prefix}rubygem(graphql-batch)
+Requires: %{?scl_prefix}rubygem(katello)
+Requires: %{?scl_prefix}rubygem(foreman_openscap)
+Requires: %{?scl_prefix}rubygem(foreman_remote_execution)
+Requires: %{?scl_prefix}rubygem(foreman_ansible)
+Requires: %{?scl_prefix}rubygem(foreman_templates)
+Requires: %{?scl_prefix}rubygem(foreman_discovery)
+Requires: %{?scl_prefix}rubygem(foreman_virt_who_configure)
 # end specfile default Requires
 
 Requires: %{?scl_prefix_ruby}rubygem(bigdecimal)
@@ -244,6 +251,13 @@ BuildRequires: %{?scl_prefix}rubygem(graphql) >= 1.8.0
 BuildRequires: %{?scl_prefix}rubygem(graphql) < 1.9.0
 BuildRequires: %{?scl_prefix}rubygem(graphql-batch)
 BuildRequires: %{?scl_prefix}rubygem(activerecord-nulldb-adapter)
+BuildRequires: %{?scl_prefix}rubygem(katello)
+BuildRequires: %{?scl_prefix}rubygem(foreman_openscap)
+BuildRequires: %{?scl_prefix}rubygem(foreman_remote_execution)
+BuildRequires: %{?scl_prefix}rubygem(foreman_ansible)
+BuildRequires: %{?scl_prefix}rubygem(foreman_templates)
+BuildRequires: %{?scl_prefix}rubygem(foreman_discovery)
+BuildRequires: %{?scl_prefix}rubygem(foreman_virt_who_configure)
 # end specfile default BuildRequires
 
 # assets
